@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercícios de JavaScript</title>
+    <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+
+    <header>
+             <h1>Exercícios de JavaScript</h1>
+                <p>Selecione uma atividade:</p>
+
+    </header>
+
+       
+    <main>
+        <div class="container">
+
+        <div class="card">
+            <h2>Atividade 01</h2>
+           <p>Pede um número e informa se ele é positivo, negativo ou zero.</p>
+            <button onclick="carregarAtividade('js/01-atividade.js')">Executar</button>
+        </div>
+
+        <div class="card">
+            <h2>Atividade 02</h2>
+            <p>Recebe uma idade e informa se é maior ou menor de idade.</p>
+            <button onclick="carregarAtividade('js/02-atividade.js')">Executar</button>
+        </div>
+
+         <div class="card">
+            <h2>Atividade 03</h2>
+            <p>Usa o operador % para identificar se o número é par ou ímpar.</p>
+            <button onclick="carregarAtividade('js/03-atividade.js')">Executar</button>
+         </div>
+
+          <div class="card">
+            <h2>Atividade 04</h2>
+            <p>Recebe dois números e mostra qual é maior ou se são iguais.</p>
+            <button onclick="carregarAtividade('js/04-atividade.js')">Executar</button>
+          </div>
+
+           <div class="card">
+            <h2>Atividade 05</h2>
+            <p>Classifica uma nota de 0 a 10 como baixa, média ou alta.</p>  
+            <button onclick="carregarAtividade('js/05-atividade.js')">Executar</button>
+           </div>
+        
+            <div class="card">
+            <h2>Atividade 06</h2>
+            <p>Pede peso e altura, calcula o IMC e classifica o resultado.</p> 
+            <button onclick="carregarAtividade('js/06-atividade.js')">Executar</button>
+            </div>
+            
+             <div class="card">
+            <h2>Atividade 07</h2>
+            <p>Recebe dois números e uma operação (+, -, *, /).</p> 
+            <button onclick="carregarAtividade('js/07-atividade.js')">Executar</button>
+             </div>
+            
+             <div class="card">
+            <h2>Atividade 08</h2>
+            <p>Pede um número de 1 a 7 e retorna o dia da semana.</p> 
+            <button onclick="carregarAtividade('js/08-atividade.js')">Executar</button>
+             </div>
+            
+             <div class="card">
+            <h2>Atividade 09</h2>
+            <p>Verifica se um número e múltiplo do outro usando %.</p> 
+            <button onclick="carregarAtividade('js/09-atividade.js')">Executar</button>
+             </div>
+
+             <div class="card">
+            <h2>Atividade 10</h2>
+            <p>Pede usuário e senha e verifica se estão corretos.</p> 
+            <button onclick="carregarAtividade('js/10-atividade.js')">Executar</button>
+             </div>
+       </div>
+
+       <script>
+    
+        function carregarAtividade(arquivo) {
+            const antigos =
+            document.querySelectorAll(".script-atividade");
+            antigos.forEach(s => s.remove());
+
+            const script = document.createElement("script")
+            script.src = arquivo;
+            script.classList.add("script-atividade");
+
+            document.body.appendChild(script);
+
+        }
+
+            
+       </script>
+        
+    </main>
+
+    <footer>
+        <p>&copy; Gustavo Gonçalves</p>
+    </footer>
+    
+</body>
+</html>
