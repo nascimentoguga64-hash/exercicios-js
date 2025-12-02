@@ -29,5 +29,6 @@ alert(`O resultado da divisão é: ${divisao}`)
     break
 
 default:
-    alert("Operação inválida")
+    console.log("Operação inválida!")
+    alert(`operação inválida!`)
 }
