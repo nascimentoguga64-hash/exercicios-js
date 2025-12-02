@@ -4,19 +4,28 @@ let op = prompt("Operação(+, -, *, /)")
 
 switch (op){
 case "+":
-    alert(n1 + n2)
+    let soma = n1 + n2;
+alert(`O resultado da soma é: ${soma}`)
+    console.log("O resultado da soma é: " + soma)
+   
     break
     
 case "-":
-    alert(n1 - n2)
+    let subtracao = n1 - n2;
+alert(`O resultado da subtração é: ${subtracao}`)
+    console.log("O resultado da subtração é: " + subtracao)
     break
 
 case "*":
-    alert(n1 * n2)
+    let multiplicacao = n1 * n2;
+alert(`O resultado da multiplicação é: ${multiplicacao}`)
+    console.log("O resultado da multiplicação é: " + multiplicacao)
     break
 
 case "/":
-    alert(n1 / n2)
+      let divisao = n1 / n2;
+alert(`O resultado da divisão é: ${divisao}`)
+    console.log("O resultado da divisão é: " + divisao)
     break
 
 default:
