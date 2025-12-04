@@ -6,6 +6,6 @@ if (n1 > n2) {
 } else if (n2 > n1){
     console.log("O número maior é: " + n2)
 } else {
-    console.log("São igauis")
+    console.log("São iguais")
 }
 
