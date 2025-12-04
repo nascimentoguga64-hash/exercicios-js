@@ -82,13 +82,15 @@
        <script>
     
         function carregarAtividade(arquivo) {
-            const antigos =
-            document.querySelectorAll(".script-atividade");
-            antigos.forEach(s => s.remove());
+            // Const Antigo: remove o Script antigo.
+            const antigo =
+            document.querySelector(".script-atividade");
+            if(antigo) antigo.remove();
 
+            // Const script: cria um novo script.
             const script = document.createElement("script")
             script.src = arquivo;
-            script.classList.add("script-atividade");
+            script.className = "script-atividade";
 
             document.body.appendChild(script);
 
