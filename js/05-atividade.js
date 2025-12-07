@@ -1,3 +1,5 @@
+function carregarAtividade5(){
+
 let nota = Number(prompt("Informe uma nota de 0 a 10:"));
 
 if (nota >=0 && nota <=4) {
@@ -14,4 +16,6 @@ if (nota >=0 && nota <=4) {
 } else {
     console.log("Nota inválida")
     alert (`Nota inválida!`)
+}
+
 }

@@ -1,3 +1,5 @@
+function carregarAtividade6(){
+
 let peso = Number(prompt("Peso"))
 let altura = Number (prompt("Altura"))
 let imc = peso / (altura * altura)
@@ -11,4 +13,6 @@ if (imc < 18.5) {
 } else {
     console.log("Acima do peso")
     alert (`Acima do peso!`)
+}
+
 }

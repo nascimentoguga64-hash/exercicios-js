@@ -21,83 +21,74 @@
         <div class="card">
             <h2>Atividade 01</h2>
            <p>Pede um número e informa se ele é positivo, negativo ou zero.</p>
-            <button onclick="carregarAtividade('js/01-atividade.js')">Executar</button>
+            <button onclick="carregarAtividade1('js/01-atividade.js')">Executar</button>
         </div>
 
         <div class="card">
             <h2>Atividade 02</h2>
             <p>Recebe uma idade e informa se é maior ou menor de idade.</p>
-            <button onclick="carregarAtividade('js/02-atividade.js')">Executar</button>
+            <button onclick="carregarAtividade2('js/02-atividade.js')">Executar</button>
         </div>
 
          <div class="card">
             <h2>Atividade 03</h2>
             <p>Usa o operador % para identificar se o número é par ou ímpar.</p>
-            <button onclick="carregarAtividade('js/03-atividade.js')">Executar</button>
+            <button onclick="carregarAtividade3('js/03-atividade.js')">Executar</button>
          </div>
 
           <div class="card">
             <h2>Atividade 04</h2>
             <p>Recebe dois números e mostra qual é maior ou se são iguais.</p>
-            <button onclick="carregarAtividade('js/04-atividade.js')">Executar</button>
+            <button onclick="carregarAtividade4('js/04-atividade.js')">Executar</button>
           </div>
 
            <div class="card">
             <h2>Atividade 05</h2>
             <p>Classifica uma nota de 0 a 10 como baixa, média ou alta.</p>  
-            <button onclick="carregarAtividade('js/05-atividade.js')">Executar</button>
+            <button onclick="carregarAtividade5('js/05-atividade.js')">Executar</button>
            </div>
         
             <div class="card">
             <h2>Atividade 06</h2>
             <p>Pede peso e altura, calcula o IMC e classifica o resultado.</p> 
-            <button onclick="carregarAtividade('js/06-atividade.js')">Executar</button>
+            <button onclick="carregarAtividade6('js/06-atividade.js')">Executar</button>
             </div>
             
              <div class="card">
             <h2>Atividade 07</h2>
             <p>Recebe dois números e uma operação (+, -, *, /).</p> 
-            <button onclick="carregarAtividade('js/07-atividade.js')">Executar</button>
+            <button onclick="carregarAtividade7('js/07-atividade.js')">Executar</button>
              </div>
             
              <div class="card">
             <h2>Atividade 08</h2>
             <p>Pede um número de 1 a 7 e retorna o dia da semana.</p> 
-            <button onclick="carregarAtividade('js/08-atividade.js')">Executar</button>
+            <button onclick="carregarAtividade8('js/08-atividade.js')">Executar</button>
              </div>
             
              <div class="card">
             <h2>Atividade 09</h2>
             <p>Verifica se um número e múltiplo do outro usando %.</p> 
-            <button onclick="carregarAtividade('js/09-atividade.js')">Executar</button>
+            <button onclick="carregarAtividade9('js/09-atividade.js')">Executar</button>
              </div>
 
              <div class="card">
             <h2>Atividade 10</h2>
             <p>Pede usuário e senha e verifica se estão corretos.</p> 
-            <button onclick="carregarAtividade('js/10-atividade.js')">Executar</button>
+            <button onclick="carregarAtividade10('js/10-atividade.js')">Executar</button>
              </div>
        </div>
 
-       <script>
-    
-        function carregarAtividade(arquivo) {
-            // Const Antigo: remove o Script antigo.
-            const antigo =
-            document.querySelector(".script-atividade");
-            if(antigo) antigo.remove();
-
-            // Const script: cria um novo script.
-            const script = document.createElement("script")
-            script.src = arquivo;
-            script.className = "script-atividade";
-
-            document.body.appendChild(script);
-
-        }
-
-            
-       </script>
+      <script src="js/01-atividade.js"></script>
+      <script src="js/02-atividade.js"></script>
+      <script src="js/03-atividade.js"></script>
+      <script src="js/04-atividade.js"></script>
+      <script src="js/05-atividade.js"></script>
+      <script src="js/06-atividade.js"></script>
+      <script src="js/07-atividade.js"></script>
+      <script src="js/08-atividade.js"></script>
+      <script src="js/09-atividade.js"></script>
+      <script src="js/10-atividade.js"></script>
         
     </main>
 

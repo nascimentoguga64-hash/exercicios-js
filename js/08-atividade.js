@@ -1,3 +1,5 @@
+function carregarAtividade8() {
+
 let dia = Number(prompt("Número de 1 a 7"))
 
 switch (dia) {
@@ -31,4 +33,6 @@ break
 
 default: console.log("Inválido")
 break
+}
+
 }

@@ -1,3 +1,5 @@
+function carregarAtividade4(){
+
 let n1 = Number(prompt("Digite o Primeiro número:"));
 let n2 = Number(prompt("Digite o Segundo número:"));
 
@@ -9,3 +11,4 @@ if (n1 > n2) {
     console.log("São iguais")
 }
 
+}

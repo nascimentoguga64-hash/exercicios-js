@@ -1,3 +1,5 @@
+function carregarAtividade7(){
+
 let n3 = Number(prompt("Digite o Primeiro número:"));
 let n4 = Number(prompt(" Digite o Segundo número:"));
 let operacao = prompt("Digite a operação desejada: (+, -, *, /)");
@@ -15,3 +17,4 @@ if (operacao === "+") {
     console.log("Operação inválida!")
 }
 
+}

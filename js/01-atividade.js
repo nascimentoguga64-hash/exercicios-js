@@ -1,3 +1,5 @@
+function carregarAtividade1() {
+
 let n = Number(prompt("Digite um número:"));
 
 if(n > 0) {
@@ -9,4 +11,5 @@ if(n > 0) {
 } else {
     console.log("Zero");
      alert (`Zero!`)
+}
 }
